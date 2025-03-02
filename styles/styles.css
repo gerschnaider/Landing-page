@@ -8,10 +8,12 @@ header{
     font-family: "Roboto";
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 15px 15%;  
+    padding: 15px 15%;
+    min-width: 800px;  
     min-height: 500px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .header_bar{
